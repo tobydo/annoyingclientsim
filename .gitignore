@@ -34,6 +34,7 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+AnnoyingClientSim/Logs
 AnnoyingClientSim/Logs/AssetImportWorker0-prev.log
 AnnoyingClientSim/Logs/AssetImportWorker0.log
 AnnoyingClientSim/Logs/shadercompiler-AssetImportWorker0.log
