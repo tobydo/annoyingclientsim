@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class ColorChange : MonoBehaviour
 {
-    public DrawLine line;
-
+    public LineDrawer line;
+   
     Color black = new Color(0, 0, 0, 1);
     Color darkBlue = new Color(0.03529412f, 0.03921569f, 0.4313726f, 1);
     Color blue = new Color(0.09803922f, 0.09803922f, 0.8392158f, 1);
@@ -43,173 +43,176 @@ public class ColorChange : MonoBehaviour
     public void ColorBlack()
     {
         Debug.Log("buttonworks");
-        line._renderer.startColor = black;
-        line._renderer.endColor = black;
+
+        line.lineRenderer.startColor = black;
+        line.lineRenderer.endColor = black;
 
         lastColor = black;
     }
 
     public void ColordarkBlue()
     {
-        line._renderer.startColor = darkBlue;
-        line._renderer.endColor = darkBlue;
+        Debug.Log("run this right");
+
+        line.lineRenderer.startColor = darkBlue;
+        line.lineRenderer.endColor = darkBlue;
 
         lastColor = darkBlue;
     }
 
     public void ColorBlue()
     {
-        line._renderer.startColor = blue;
-        line._renderer.endColor = blue;
+        line.lineRenderer.startColor = blue;
+        line.lineRenderer.endColor = blue;
 
         lastColor = blue;
     }
 
     public void ColorPurple()
     {
-        line._renderer.startColor = purple;
-        line._renderer.endColor = purple;
+        line.lineRenderer.startColor = purple;
+        line.lineRenderer.endColor = purple;
 
         lastColor = purple;
     }
 
     public void ColorBrown()
     {
-        line._renderer.startColor = brown;
-        line._renderer.endColor = brown;
+        line.lineRenderer.startColor = brown;
+        line.lineRenderer.endColor = brown;
 
         lastColor = brown;
     }
 
     public void ColorDarkGray()
     {
-        line._renderer.startColor = darkGray;
-        line._renderer.endColor = darkGray;
+        line.lineRenderer.startColor = darkGray;
+        line.lineRenderer.endColor = darkGray;
 
         lastColor = darkGray;
     }
 
     public void ColorTeal()
     {
-        line._renderer.startColor = teal; ;
-        line._renderer.endColor = teal;
+        line.lineRenderer.startColor = teal; ;
+        line.lineRenderer.endColor = teal;
 
         lastColor = teal;
     }
 
     public void ColorGreen()
     {
-        line._renderer.startColor = green; ;
-        line._renderer.endColor = green;
+        line.lineRenderer.startColor = green; ;
+        line.lineRenderer.endColor = green;
 
         lastColor = green;
     }
 
     public void ColorPink()
     {
-        line._renderer.startColor = pink; ;
-        line._renderer.endColor = pink;
+        line.lineRenderer.startColor = pink; ;
+        line.lineRenderer.endColor = pink;
 
         lastColor = pink;
     }
 
     public void ColorRed()
     {
-        line._renderer.startColor = red;
-        line._renderer.endColor = red;
+        line.lineRenderer.startColor = red;
+        line.lineRenderer.endColor = red;
 
         lastColor = red;
     }
 
     public void ColorGray()
     {
-        line._renderer.startColor = gray;
-        line._renderer.endColor = gray;
+        line.lineRenderer.startColor = gray;
+        line.lineRenderer.endColor = gray;
 
         lastColor = gray;
     }
 
     public void ColorSkyBlue()
     {
-        line._renderer.startColor = skyBlue;
-        line._renderer.endColor = skyBlue;
+        line.lineRenderer.startColor = skyBlue;
+        line.lineRenderer.endColor = skyBlue;
 
         lastColor = skyBlue;
     }
 
     public void ColorLightGreen()
     {
-        line._renderer.startColor = lightGreen;
-        line._renderer.endColor = lightGreen;
+        line.lineRenderer.startColor = lightGreen;
+        line.lineRenderer.endColor = lightGreen;
 
         lastColor = lightGreen;
     }
 
     public void ColorYellow()
     {
-        line._renderer.startColor = yellow;
-        line._renderer.endColor = yellow;
+        line.lineRenderer.startColor = yellow;
+        line.lineRenderer.endColor = yellow;
 
         lastColor = yellow;
     }
 
     public void ColorPeach()
     {
-        line._renderer.startColor = peach;
-        line._renderer.endColor = peach;
+        line.lineRenderer.startColor = peach;
+        line.lineRenderer.endColor = peach;
 
         lastColor = peach;
     }
 
     public void ColorWhite()
     {
-        line._renderer.startColor = white;
-        line._renderer.endColor = white;
+        line.lineRenderer.startColor = white;
+        line.lineRenderer.endColor = white;
 
         lastColor = white;
     }
 
     public void ColorLightBlue()
     {
-        line._renderer.startColor = lightBlue;
-        line._renderer.endColor = lightBlue;
+        line.lineRenderer.startColor = lightBlue;
+        line.lineRenderer.endColor = lightBlue;
 
         lastColor = lightBlue;
     }
 
     public void ColorVeryLightGreen()
     {
-        line._renderer.startColor = veryLightGreen;
-        line._renderer.endColor = veryLightGreen;
+        line.lineRenderer.startColor = veryLightGreen;
+        line.lineRenderer.endColor = veryLightGreen;
 
         lastColor = veryLightGreen;
     }
 
     public void ColorLightYellow()
     {
-        line._renderer.startColor = lightYellow;
-        line._renderer.endColor = lightYellow;
+        line.lineRenderer.startColor = lightYellow;
+        line.lineRenderer.endColor = lightYellow;
 
         lastColor = lightYellow;
     }
 
     public void ColorBeige()
     {
-        line._renderer.startColor = beige;
-        line._renderer.endColor = beige;
+        line.lineRenderer.startColor = beige;
+        line.lineRenderer.endColor = beige;
 
         lastColor = beige;
     }
 
     public void ColorEraser()
     {
-        line._renderer.startColor = eraser;
-        line._renderer.endColor = eraser;
+        line.lineRenderer.startColor = eraser;
+        line.lineRenderer.endColor = eraser;
     }
 
     public void ColorLastColor()
     {
-        line._renderer.startColor = lastColor;
-        line._renderer.endColor = lastColor;
+        line.lineRenderer.startColor = lastColor;
+        line.lineRenderer.endColor = lastColor;
     }
 }
